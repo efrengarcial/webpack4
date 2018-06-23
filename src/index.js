@@ -1,1 +1,2 @@
-import App from "./App";
+import "./style.scss";
+console.log("hello, world");
