@@ -1,4 +1,5 @@
 // webpack v4
+// https://github.com/webpack-contrib/mini-css-extract-plugin
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const WebpackMd5Hash = require('webpack-md5-hash');
@@ -23,7 +24,7 @@ module.exports = {
         use: [{ loader: 'babel-loader' }, { loader: 'eslint-loader' }]
       },
       {
-        test: /\.scss$/,
+        test: /\.(sa|sc|c)ss$/,
         use: [
           'style-loader',
           MiniCssExtractPlugin.loader,

@@ -8,6 +8,7 @@
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
+    "babel-plugin-import": "^1.8.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "clean-webpack-plugin": "^0.1.19",
@@ -23,10 +24,6 @@
     "node-sass": "^4.9.0",
     "postcss-loader": "^2.1.5",
     "prettier": "^1.13.5",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "react-hot-loader": "^4.3.3",
-    "react-router-dom": "^4.3.1",
     "sass-loader": "^7.0.3",
     "style-loader": "^0.21.0",
     "webpack": "^4.12.0",
@@ -34,8 +31,15 @@
     "webpack-dev-server": "^3.1.4",
     "webpack-md5-hash": "^0.0.6"
   },
+  "dependencies": {
+    "antd": "^3.8.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-hot-loader": "^4.3.3",
+    "react-router-dom": "^4.3.1"
+  },
   "scripts": {
-    "dev": "webpack-dev-server --mode=development --hot",
+    "start": "webpack-dev-server --mode=development --hot",
     "build": "webpack --mode production"
   }
 }
