@@ -1,3 +1,10 @@
-div {
-    color: red;
+.component {   
+    border-color: $primary-1;
+    color: $warning-color;
+};
+
+.form {
+    background: $blue-1;
+    padding: $padding-lg;
 }
+  

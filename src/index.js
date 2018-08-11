@@ -6,6 +6,8 @@ import frFR from 'antd/lib/locale-provider/es_ES';
 import moment from 'moment';
 import 'moment/locale/es';
 
+import styles from './style.scss';
+
 moment.locale('es');
 
 class App extends React.Component {
